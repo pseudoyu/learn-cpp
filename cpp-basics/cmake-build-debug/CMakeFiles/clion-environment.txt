@@ -1,0 +1,3 @@
+ToolSet: 1.0 (local)Options: 
+
+Options:-DCMAKE_MAKE_PROGRAM=/Users/pseudoyu/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-1/223.7126.6/CLion 2022.3 EAP.app/Contents/bin/ninja/mac/ninja
