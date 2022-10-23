@@ -77,205 +77,201 @@ class Fiction : public Book {
 
 int main()
 {
-//    // Types
-//    char grade = 'A';
-//    double gpa = 3.5;
-//    bool isMale = true;
-//    string phrase = "Giraffe Academy";
-//    phrase[0] = 'B';
-//
-//    // Print
-//    cout << phrase << endl;
-//
-//    // Working with strings
-//    cout << phrase.length() << endl;
-//    cout << phrase.find("Academy", 0) << endl;
-//    cout << phrase.substr(8, 3) << endl;
-//
-//    // Working with numbers
-//    cout << 10 % 3 << endl;
-//    int wnum = 5;
-//    double dnum = 5.5;
-//    wnum -= 2;
-//    cout << dnum / wnum << endl;
-//
-//    // Math functions
-//    cout << pow(2, 3) << endl;
-//    cout << sqrt(36) << endl;
-//    cout << round(4.3) << endl;
-//    cout << ceil(4.3) << endl;
-//    cout << floor(4.3) << endl;
-//    cout << fmax(3, 10) << endl;
-//    cout << fmin(3, 10) << endl;
-//
-//    // User input
-//    int age;
-//    string name;
-//    cout << "Enter your age: ";
-//    cin >> age;
-//    cout << "You are " << age << " years old." << endl;
-//    getline(cin, name);
-//    cout << "Hello " << name << endl;
-//
-//    // Basic Calculator
-//    int num1, num2;
-//    cout << "Enter first number: ";
-//    cin >> num1;
-//    cout << "Enter second number: ";
-//    cin >> num2;
-//    cout << num1 + num2 << endl;
-//
-//    // Mad Libs Game
-//    string color, pluralNoun, celebrity;
-//
-//    cout << "Enter a color: ";
-//    getline(cin, color);
-//    cout << "Enter a plural noun: ";
-//    getline(cin, pluralNoun);
-//    cout << "Enter a celebrity: ";
-//    getline(cin, celebrity);
-//
-//    cout << "Roses are " << color << endl;
-//    cout << pluralNoun << " are blue" << endl;
-//    cout << "I love " << celebrity << endl;
+    // Types
+    char grade = 'A';
+    double gpa = 3.5;
+    string phrase = "Giraffe Academy";
+    phrase[0] = 'B';
 
-//    // Arrays
-//    int luckyNums[20] = {4, 8, 15, 16, 23, 42};
-//    luckyNums[0] = 19;
-//    cout << luckyNums[0] << endl;
+    // Print
+    cout << phrase << endl;
 
-//    // Functions
-//    sayHi("Mike", 35);
-//    cout << cube(5.0) << endl;
+    // Working with strings
+    cout << phrase.length() << endl;
+    cout << phrase.find("Academy", 0) << endl;
+    cout << phrase.substr(8, 3) << endl;
 
-//    // If statements
-//    bool isMale = true;
-//    bool isTall = true;
-//
-//    if (isMale && isTall) {
-//        cout << "You are a tall male" << endl;
-//    } else if (isMale && !isTall) {
-//        cout << "You are a male but not tall" << endl;
-//    } else if (!isMale && isTall) {
-//        cout << "You are not male but are tall" << endl;
-//    } else {
-//        cout << "You are not male" << endl;
-//    }
+    // Working with numbers
+    cout << 10 % 3 << endl;
+    int wnum = 5;
+    double dnum = 5.5;
+    wnum -= 2;
+    cout << dnum / wnum << endl;
 
-//    // Comparison operators
-//    // > | < | >= | <= | == | !=
+    // Math functions
+    cout << pow(2, 3) << endl;
+    cout << sqrt(36) << endl;
+    cout << round(4.3) << endl;
+    cout << ceil(4.3) << endl;
+    cout << floor(4.3) << endl;
+    cout << fmax(3, 10) << endl;
+    cout << fmin(3, 10) << endl;
+
+    // User input
+    int age;
+    string name;
+    cout << "Enter your age: ";
+    cin >> age;
+    cout << "You are " << age << " years old." << endl;
+    getline(cin, name);
+    cout << "Hello " << name << endl;
+
+    // Basic Calculator
+    int num1, num2;
+    cout << "Enter first number: ";
+    cin >> num1;
+    cout << "Enter second number: ";
+    cin >> num2;
+    cout << num1 + num2 << endl;
+
+    // Mad Libs Game
+    string color, pluralNoun, celebrity;
+
+    cout << "Enter a color: ";
+    getline(cin, color);
+    cout << "Enter a plural noun: ";
+    getline(cin, pluralNoun);
+    cout << "Enter a celebrity: ";
+    getline(cin, celebrity);
+
+    cout << "Roses are " << color << endl;
+    cout << pluralNoun << " are blue" << endl;
+    cout << "I love " << celebrity << endl;
+
+    // Arrays
+    int luckyNums[20] = {4, 8, 15, 16, 23, 42};
+    luckyNums[0] = 19;
+    cout << luckyNums[0] << endl;
+
+    // Functions
+    sayHi("Mike", 35);
+    cout << cube(5.0) << endl;
+
+    // If statements
+    bool isMale = true;
+    bool isTall = true;
+
+    if (isMale && isTall) {
+        cout << "You are a tall male" << endl;
+    } else if (isMale && !isTall) {
+        cout << "You are a male but not tall" << endl;
+    } else if (!isMale && isTall) {
+        cout << "You are not male but are tall" << endl;
+    } else {
+        cout << "You are not male" << endl;
+    }
+
+    // Comparison operators
+    // > | < | >= | <= | == | !=
 //    int num1 = 3;
 //    int num2 = 2;
-//    cout << (getMax(num1, num2)) << endl;
+    cout << (getMax(num1, num2)) << endl;
 
-//    // Better calculator
+    // Better calculator
 //    double num1, num2;
-//    char op;
-//    cout << "Enter first number: ";
-//    cin >> num1;
-//    cout << "Enter second number: ";
-//    cin >> num2;
-//    cout << "Enter operator: ";
-//    cin >> op;
-//
-//    if (op == '+') {
-//        cout << num1 + num2 << endl;
-//    } else if (op == '-') {
-//        cout << num1 - num2 << endl;
-//    } else if (op == '/') {
-//        cout << num1 / num2 << endl;
-//    } else if (op == '*') {
-//        cout << num1 * num2 << endl;
-//    } else if (op == '%') {
-//        cout << (int)num1 % (int)num2 << endl;
-//    } else {
-//        cout << "Invalid operator" << endl;
-//    }
+    char op;
+    cout << "Enter first number: ";
+    cin >> num1;
+    cout << "Enter second number: ";
+    cin >> num2;
+    cout << "Enter operator: ";
+    cin >> op;
 
-//    // Switch statements
-//    int day = 4;
-//    cout << getDayOfWeek(day) << endl;
+    if (op == '+') {
+        cout << num1 + num2 << endl;
+    } else if (op == '-') {
+        cout << num1 - num2 << endl;
+    } else if (op == '/') {
+        cout << num1 / num2 << endl;
+    } else if (op == '*') {
+        cout << num1 * num2 << endl;
+    } else if (op == '%') {
+        cout << (int)num1 % (int)num2 << endl;
+    } else {
+        cout << "Invalid operator" << endl;
+    }
 
-//    // While loops
-//    int index = 1;
-//    while (index <= 5) {
-//        cout << index << endl;
-//        index++;
-//    }
+    // Switch statements
+    int day = 4;
+    cout << getDayOfWeek(day) << endl;
 
-//    // Do while loops
+    // While loops
+    int index = 1;
+    while (index <= 5) {
+        cout << index << endl;
+        index++;
+    }
+
+    // Do while loops
 //    int index = 6;
-//    do {
-//        cout << index << endl;
-//        index++;
-//    } while (index <= 5);
+    do {
+        cout << index << endl;
+        index++;
+    } while (index <= 5);
 
-//    // Guessing game
-//    int secretNum = 7;
-//    int guess;
-//    int guessCount = 0;
-//    int guessLimit = 3;
-//    bool outOfGuesses = false;
-//
-//    while (secretNum != guess && !outOfGuesses) {
-//        if (guessCount < guessLimit) {
-//            cout << "Enter guess: ";
-//            cin >> guess;
-//            guessCount++;
-//        } else {
-//            outOfGuesses = true;
-//        }
-//    }
-//
-//    if (outOfGuesses) {
-//        cout << "You lose!" << endl;
-//    } else {
-//        cout << "You win!" << endl;
-//    }
+    // Guessing game
+    int secretNum = 7;
+    int guess;
+    int guessCount = 0;
+    int guessLimit = 3;
+    bool outOfGuesses = false;
 
-//    // For loops
-//    for (int i = 1; i <= 5; i++) {
-//        cout << i << endl;
-//    }
-//
-//    int nums[] = {1, 2, 3, 4, 5};
-//    for (int i = 0; i < 5; i++) {
-//        cout << nums[i] << endl;
-//    }
+    while (secretNum != guess && !outOfGuesses) {
+        if (guessCount < guessLimit) {
+            cout << "Enter guess: ";
+            cin >> guess;
+            guessCount++;
+        } else {
+            outOfGuesses = true;
+        }
+    }
 
-//    // Exponent function
-//    cout << pow(2, 3) << endl;
+    if (outOfGuesses) {
+        cout << "You lose!" << endl;
+    } else {
+        cout << "You win!" << endl;
+    }
 
-//    // 2D Arrays and Nested loops
-//    int numberGrid[3][2] = {
-//            {1, 2},
-//            {3, 4},
-//            {5, 6}
-//    };
-//
-//    for (int i = 0; i < 3; i++) {
-//        for (int j = 0; j < 2; j++) {
-//            cout << numberGrid[i][j];
-//        }
-//        cout << endl;
-//    }
+    // For loops
+    for (int i = 1; i <= 5; i++) {
+        cout << i << endl;
+    }
 
-//    // Pointers
-//    int age = 19;
-//    int *pAge = &age;
-//    double gpa = 2.7;
-//    double *pGpa = &gpa;
-//    string name = "Mike";
-//    string *pName = &name;
-//
-//    cout << pAge << endl;
-//    cout << *pAge << endl;
-//
-//    cout << pGpa << endl;
-//    cout << *pGpa << endl;
-//
-//    cout << pName << endl;
-//    cout << *pName << endl;
+    int nums[] = {1, 2, 3, 4, 5};
+    for (int i = 0; i < 5; i++) {
+        cout << nums[i] << endl;
+    }
+
+    // Exponent function
+    cout << pow(2, 3) << endl;
+
+    // 2D Arrays and Nested loops
+    int numberGrid[3][2] = {
+            {1, 2},
+            {3, 4},
+            {5, 6}
+    };
+
+    for (int i = 0; i < 3; i++) {
+        for (int j = 0; j < 2; j++) {
+            cout << numberGrid[i][j];
+        }
+        cout << endl;
+    }
+
+    // Pointers
+    int *pAge = &age;
+    double *pGpa = &gpa;
+    string *pName = &name;
+
+    cout << pAge << endl;
+    cout << *pAge << endl;
+
+    cout << pGpa << endl;
+    cout << *pGpa << endl;
+
+    cout << pName << endl;
+    cout << *pName << endl;
 
     // Objects
     Book book1 = Book("Harry Potter", "JK Rowling", 600, "A");
